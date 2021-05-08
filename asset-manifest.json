@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trvl-stadiums-page/static/css/main.859d5035.chunk.css",
-    "main.js": "/trvl-stadiums-page/static/js/main.2a5a71e8.chunk.js",
-    "main.js.map": "/trvl-stadiums-page/static/js/main.2a5a71e8.chunk.js.map",
+    "main.js": "/trvl-stadiums-page/static/js/main.d27b17a0.chunk.js",
+    "main.js.map": "/trvl-stadiums-page/static/js/main.d27b17a0.chunk.js.map",
     "runtime-main.js": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js",
     "runtime-main.js.map": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js.map",
     "static/js/2.e61356eb.chunk.js": "/trvl-stadiums-page/static/js/2.e61356eb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c0b16823.js",
     "static/js/2.e61356eb.chunk.js",
     "static/css/main.859d5035.chunk.css",
-    "static/js/main.2a5a71e8.chunk.js"
+    "static/js/main.d27b17a0.chunk.js"
   ]
 }
