@@ -21,7 +21,7 @@ const availableTickets = Math.floor(Math.random() * (25 - 7 + 1)) + 7;
 
 const data = {
     id: 6,
-    src: "../images/img6.jpg",
+    src: "./images/img6.jpg",
     text: "The Parc des Princes is the iconic stadium of Paris Saint-Germain (PSG), one of the top European football clubs",
     label: "Paris",
     stadium: 'Parc des Princes',

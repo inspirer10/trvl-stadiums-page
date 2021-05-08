@@ -18,7 +18,7 @@ const availableTickets = Math.floor(Math.random() * (25 - 7 + 1)) + 7;
 
 const data = {
     id: 3,
-    src: "../images/img3.jpg",
+    src: "./images/img3.jpg",
     text: "The architecture of the Allianz Arena is unique worldwide. Its facade consists of the largest membrane shell in the world",
     label: "Monachium",
     stadium: 'Allianz Arena',

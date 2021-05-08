@@ -7,7 +7,7 @@ function CardItem({ label, src, text, id, path }) {
             <li id={id} className="card-item">
                 <Link className="card-item-link" to={path}>
                     <figure className="cards-item-pic" data-category={label}>
-                        <img src={src} className="card-item-img" alt="Stadium pic"/>
+                        <img src={process.env.PUBLIC_URL + src} className="card-item-img" alt="Stadium pic"/>
                     </figure>
                     <div className="card-item-info">
                         <h5 className="card-item-text">{text}</h5>
