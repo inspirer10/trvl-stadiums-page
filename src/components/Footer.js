@@ -11,7 +11,7 @@ function Footer() {
                     Join the adventure newsletter to receiver our best vacation deals
                 </p>
                 <p className="footer-subscriptions-text">
-                    You can unsubscribe at any time.
+                    You can unsubscribe at any time
                 </p>
                 <div className="input-area">
                     <form>
@@ -29,7 +29,6 @@ function Footer() {
                         <Link to="/">Testimonials </Link>
                         <Link to="/">Careers</Link>
                         <Link to="/">Investors</Link>
-                        <Link to="/">Terms of Service</Link>
                     </div>
 
                     <div class='footer-link-items'>

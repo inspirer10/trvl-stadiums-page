@@ -20,12 +20,10 @@ const availableTickets = Math.floor(Math.random() * (25 - 7 + 1)) + 7;
 
 const data = {
     id: 7,
-    src: './images/img7.jpg',
+    src: '/images/img7.jpg',
     text: 'Kiev Olympic Stadium is the Ukrainian national stadium and home of FC Dynamo Kiev',
     label: 'Kiev',
     stadium: 'Olympic Stadium',
     tickets: availableTickets,
 }
-
-
 export default Kiev;

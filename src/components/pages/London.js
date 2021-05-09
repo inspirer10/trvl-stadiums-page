@@ -20,7 +20,7 @@ const availableTickets = Math.floor(Math.random() * (25 - 7 + 1)) + 7;
 
 const data = {
     id: 4,
-    src: "./images/img4.jpg",
+    src: "/images/img4.jpg",
     text: "Wembley is one of the most famous stadium's in the world",
     label: "London",
     stadium: 'Wembley',

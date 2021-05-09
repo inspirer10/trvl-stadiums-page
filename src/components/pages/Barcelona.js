@@ -20,7 +20,7 @@ const availableTickets = Math.floor(Math.random() * (25 - 7 + 1)) + 7;
 
 const data = {
     id: 1,
-    src: './images/img1.jpg',
+    src: '/images/img1.jpg',
     text: "Camp Nou - the biggest stadium in the whole Europe",
     label: "Barcelona",
     stadium: 'Camp Nou',

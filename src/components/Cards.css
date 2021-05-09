@@ -121,3 +121,30 @@
         margin: 2.5rem 1rem;
     }
 }
+
+@media screen and (max-width: 676px) {
+    .cards h1 {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+    .card-item-img:hover {
+        transform: none;
+    }
+    .cards {
+        padding: 1.5rem;
+    }
+    .card-item-info {
+        padding: 15px;
+    }
+    .cards-item-pic::after {
+        font-size: 16px;
+        margin-left: 15px;
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cards {
+        padding: 0.5rem 1rem;
+    }
+}

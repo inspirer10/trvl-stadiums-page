@@ -25,16 +25,16 @@ ul {
 }
 
 .services {
-    background-image: url('./images/img1.jpg');
+    background-image: url('./images/img11.jpg');
     background-size: cover;
 }
 
 .products {
-    background-image: url('./images/img2.jpg');
+    background-image: url('./images/img12.jpg');
     background-size: cover;
 }
 
 .sign-up {
-    background-image: url('./images/img4.jpg');
+    background-image: url('./images/img14.jpg');
     background-size: cover;
 }

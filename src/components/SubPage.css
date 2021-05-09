@@ -71,7 +71,8 @@
 
 .item-info {
     max-width: 68%;
-    margin: 35px auto;
+    margin: 30px auto;
+    font-size: 17px;
 }
 
 .item-half p span {
@@ -144,6 +145,7 @@
     }
     .item-info {
         margin: 20px auto 30px;
+        font-size: 16px;
     }
     .setTicket {
         width: 40px;

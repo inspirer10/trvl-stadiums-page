@@ -76,7 +76,14 @@
 }
 
 @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .fa-typo3 {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+    }
+    .fa-bars {
+        font-size: 2rem;
+    }
+    .navbarItems {
         position: relative;
     }
     .nav-menu {
@@ -113,6 +120,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        font-size: 2.2rem;
     }
     .menu-icon {
         display: block;
@@ -145,5 +153,11 @@
         background: #fff;
         color: #242424;
         transition: 250ms;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .menu-icon {
+        font-size: 2rem;
     }
 }

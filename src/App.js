@@ -19,7 +19,7 @@ import './App.css';
 
 function App() {
     return (
-        <>
+        <React.StrictMode>
             <Router basename={process.env.PUBLIC_URL}>
                 <Navbar />
                 <Switch>
@@ -36,7 +36,7 @@ function App() {
                     <Route path="/London" exact component={London} />
                 </Switch>
             </Router>
-        </>
+        </React.StrictMode>
     );
 }
 
