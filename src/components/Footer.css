@@ -185,6 +185,9 @@
     .website-rights {
         margin-bottom: 15px;
     }
+    .footer-subscriptions {
+        padding: 0 25px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -194,11 +197,17 @@
     .footer-links {
         justify-content: space-around;
     }
+    .footer-container {
+        padding: 0 0 1rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
-    .footer-links {
-        justify-content: space-around;
+    .footer-input {
+        margin-right: 0;
+    }
+    .footer-link-items {
+        align-items: center;
     }
 }
 

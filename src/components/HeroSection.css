@@ -7,8 +7,6 @@ video {
 }
 
 .hero-container {
-    /* background: url('../images/img2.jpg') center center/cover no-repeat; */
-    background: url('../videos/video.mp4');
     height: 100vh;
     width: 100%;
     display: flex;
@@ -78,6 +76,12 @@ video {
 }
 
 @media screen and (max-width: 560px) {
+    video {
+        display: none;
+    }
+    .hero-container {
+        background: url('../images/Sky.jpg') center center/cover no-repeat;
+    }
     .hero-container>h1 {
         font-size: 40px;
         margin-top: -150px;

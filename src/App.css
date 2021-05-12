@@ -5,6 +5,18 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: auto;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
 ul {
     list-style: none;
 }

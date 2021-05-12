@@ -10,6 +10,7 @@ function Navbar() {
 
     const handleClick = () => {
         setClick(prev => !prev);
+        document.body.classList.toggle('hidden');
     };
 
     const closeMobileMenu = () => {
@@ -28,7 +29,7 @@ function Navbar() {
         showButton();
     }, []);
 
-    window.addEventListener('resize', showButton)
+    window.addEventListener('resize', showButton);
 
     return (
         <>

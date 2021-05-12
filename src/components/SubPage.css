@@ -14,17 +14,6 @@
     padding: 12rem 0rem 12rem 2.5rem;
 }
 
-
-/*
-.item-half:nth-of-type(1) {
-    padding-top: 12rem;
-}
-
-.item-half:nth-of-type(2) {
-    padding-top: 5rem;
-}
-*/
-
 .item-half {
     margin: 0 auto;
     width: 50%;
@@ -123,7 +112,7 @@
 
 .tickets {
     text-align: left;
-    padding: 5% 5% 3% 5%;
+    padding: 5% 5% 3%;
     font-weight: bold;
     font-style: italic;
     font-size: 18px;
@@ -162,30 +151,97 @@
 @media screen and (max-width: 1050px) {
     .item-img {
         margin-top: 0;
-        height: 100%;
-        padding-bottom: 5%;
+        height: 85%;
     }
     .item {
         flex-direction: column;
-        padding: 4% 0 0;
+        padding: 5% 0 1%;
         justify-content: space-around;
+        max-width: 100%;
+        max-height: 100%;
     }
     .item-pic {
         padding-top: 75%;
     }
     .item-half {
-        width: 55%;
+        width: 80%;
+    }
+    .tickets {
+        padding: 0 5% 2%;
+    }
+    .reserveBtn {
+        margin-left: 8%;
+        font-size: 20px;
+        padding: 10px 20px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .item-half {
-        width: 70%;
+        width: 83%;
+    }
+    .item h2 {
+        font-size: 28px;
+    }
+    .item-info {
+        font-size: 17px;
+    }
+    .tickets {
+        font-size: 19px;
     }
     .item-half p span {
         font-size: 16px;
     }
     .fa-star {
         font-size: 15px;
+    }
+    .item {
+        justify-content: unset;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .item-half {
+        width: 85%;
+    }
+    .item-info {
+        margin: 25px auto 45px;
+        max-width: 85%;
+    }
+    .item {
+        padding: 5% 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item-half {
+        width: 90%;
+    }
+    .setTicket {
+        color: white;
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .item {
+        padding: 10% 0;
+    }
+    .item h2 {
+        white-space: nowrap;
+        font-size: 21px;
+    }
+    .item-info {
+        max-width: 90%;
+    }
+    .tickets {
+        text-align: center;
+        padding: 0 0 7%;
+        font-style: normal;
+    }
+    .btns {
+        justify-content: center;
+        padding: 0;
     }
 }
