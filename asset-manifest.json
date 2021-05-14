@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trvl-stadiums-page/static/css/main.2c0136b0.chunk.css",
-    "main.js": "/trvl-stadiums-page/static/js/main.856a614e.chunk.js",
-    "main.js.map": "/trvl-stadiums-page/static/js/main.856a614e.chunk.js.map",
+    "main.css": "/trvl-stadiums-page/static/css/main.02b47fd2.chunk.css",
+    "main.js": "/trvl-stadiums-page/static/js/main.217dc97b.chunk.js",
+    "main.js.map": "/trvl-stadiums-page/static/js/main.217dc97b.chunk.js.map",
     "runtime-main.js": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js",
     "runtime-main.js.map": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js.map",
     "static/js/2.df512d13.chunk.js": "/trvl-stadiums-page/static/js/2.df512d13.chunk.js",
     "static/js/2.df512d13.chunk.js.map": "/trvl-stadiums-page/static/js/2.df512d13.chunk.js.map",
     "index.html": "/trvl-stadiums-page/index.html",
-    "static/css/main.2c0136b0.chunk.css.map": "/trvl-stadiums-page/static/css/main.2c0136b0.chunk.css.map",
+    "static/css/main.02b47fd2.chunk.css.map": "/trvl-stadiums-page/static/css/main.02b47fd2.chunk.css.map",
     "static/js/2.df512d13.chunk.js.LICENSE.txt": "/trvl-stadiums-page/static/js/2.df512d13.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/trvl-stadiums-page/static/media/Sky.7cef4886.jpg",
     "static/media/App.css": "/trvl-stadiums-page/static/media/img14.446eccae.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0b16823.js",
     "static/js/2.df512d13.chunk.js",
-    "static/css/main.2c0136b0.chunk.css",
-    "static/js/main.856a614e.chunk.js"
+    "static/css/main.02b47fd2.chunk.css",
+    "static/js/main.217dc97b.chunk.js"
   ]
 }
