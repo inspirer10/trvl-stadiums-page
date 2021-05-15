@@ -11,6 +11,8 @@ function Paris() {
                 label={data.label}
                 stadium={data.stadium}
                 availableTickets={data.tickets}
+                lat={data.lat}
+                lng={data.lng}
             />
         </div>
     )
@@ -26,6 +28,8 @@ const data = {
     label: "Paris",
     stadium: 'Parc des Princes',
     tickets: availableTickets,
+    lat: 48.841505411453916,
+    lng: 2.2530870110404324,
 }
 
 export default Paris;

@@ -10,6 +10,8 @@ function Monachium() {
             label={data.label}
             stadium={data.stadium}
             availableTickets={data.tickets}
+            lat={data.lat}
+            lng={data.lng}
         />
     )
 }
@@ -23,6 +25,8 @@ const data = {
     label: "Monachium",
     stadium: 'Allianz Arena',
     tickets: availableTickets,
+    lat: 48.21877897900465,
+    lng: 11.624756960565184,
 }
 
 

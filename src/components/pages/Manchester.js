@@ -11,6 +11,8 @@ function Manchester() {
                 label={data.label}
                 stadium={data.stadium}
                 availableTickets={data.tickets}
+                lat={data.lat}
+                lng={data.lng}
             />
         </div>
     )
@@ -25,6 +27,8 @@ const data = {
     label: "Manchester",
     stadium: 'Old Trafford',
     tickets: availableTickets,
+    lat: 53.463058,
+    lng: -2.291340,
 }
 
 export default Manchester;

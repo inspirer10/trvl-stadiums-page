@@ -203,6 +203,10 @@
 }
 
 @media screen and (max-width: 650px) {
+    .footer-subscriptions>p {
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
     .footer-input {
         margin-right: 0;
     }

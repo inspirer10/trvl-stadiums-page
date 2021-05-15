@@ -1,11 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import '../components/SubPage.css';
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 import Footer from '../components/Footer.js';
+
+const MyMapComponent = withScriptjs(withGoogleMap(({ isMarkerShown, lat, lng }) => {
+    return (
+        <GoogleMap
+            defaultZoom={9}
+            defaultCenter={{ lat: lat, lng: lng }}
+        >
+            {isMarkerShown && <Marker position={{ lat: lat, lng: lng }} />}
+        </GoogleMap>
+    )
+}))
 
 const revievs = Math.floor(Math.random() * (80 - 20 + 1)) + 20;//poza funkcją => nie renderuje się za każdym kliknięciem buttona
 
-function SubPage({ label, src, stadium, availableTickets, text }) {
+function SubPage({ label, src, stadium, availableTickets, text, lat, lng }) {
     const [count, setCount] = useState(0);
     const [tickets, setTickets] = useState(availableTickets);
     const { pathname } = useLocation();
@@ -66,6 +78,15 @@ function SubPage({ label, src, stadium, availableTickets, text }) {
                     </div>
                 </div>
             </div>
+            <MyMapComponent
+                isMarkerShown
+                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuOk2YaK7pILzO2KEjzOJrQ8I3GDeI3Qw"
+                lat={lat}
+                lng={lng}
+                loadingElement={<div style={{ height: `100%` }} />}
+                containerElement={<div style={{ height: `550px` }} />}
+                mapElement={<div style={{ height: `100%` }} />}
+            />
             <Footer />
         </>
     )

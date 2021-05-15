@@ -4,14 +4,12 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
-    background-color: black;
     flex-direction: row;
-    color: white;
-    max-width: 90vw;
+    max-width: 94vw;
     max-height: 100vh;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0px auto;
-    padding: 12rem 0rem 12rem 2.5rem;
+    padding: 8rem 0 0 1.5rem;
 }
 
 .item-half {
@@ -38,7 +36,7 @@
     height: 95%;
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .item-img:hover {
@@ -48,30 +46,32 @@
 .item h2 {
     padding-top: 5px;
     text-transform: uppercase;
-    text-shadow: 3px 5px 2px #474747;
+    text-shadow: 3px 5px 2px #b1b1b1;
     font-size: 26px;
 }
 
 .fa-star {
     color: gold;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 1.5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .item-info {
-    max-width: 68%;
+    max-width: 70%;
     margin: 30px auto;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .item-half p span {
     padding-left: 10px;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .item-half h1 {
-    color: gold;
+    /*color: gold;*/
     font-size: 37px;
     padding-top: 10px;
 }
@@ -79,13 +79,20 @@
 .reserveBtn {
     cursor: pointer;
     font-size: 24px;
-    margin-left: 15%;
+    margin-left: 5%;
+    background: gold;
+    color: black;
+}
+
+.reserveBtn:hover {
+    background: black;
+    color: white;
 }
 
 .setTicket {
     font-size: 40px;
     color: black;
-    border: 1px solid white;
+    border: 1px solid black;
     width: 45px;
     height: 45px;
     display: flex;
@@ -99,23 +106,21 @@
 
 .btns {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding-left: 5%;
 }
 
 .btns span {
-    font-size: 40px;
-    color: white;
+    font-size: 37px;
     margin: 0 1rem;
 }
 
 .tickets {
-    text-align: left;
-    padding: 5% 5% 3%;
+    padding: 2% 0 3%;
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -155,7 +160,7 @@
     }
     .item {
         flex-direction: column;
-        padding: 5% 0 1%;
+        padding: 5% 0;
         justify-content: space-around;
         max-width: 100%;
         max-height: 100%;
@@ -209,7 +214,7 @@
         max-width: 85%;
     }
     .item {
-        padding: 5% 0 0;
+        padding: 10% 0;
     }
 }
 
@@ -218,16 +223,12 @@
         width: 90%;
     }
     .setTicket {
-        color: white;
         padding-bottom: 5px;
         font-size: 35px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .item {
-        padding: 10% 0;
-    }
     .item h2 {
         white-space: nowrap;
         font-size: 21px;

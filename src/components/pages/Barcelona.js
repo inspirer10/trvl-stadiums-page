@@ -11,6 +11,8 @@ function Barcelona() {
                 label={data.label}
                 stadium={data.stadium}
                 availableTickets={data.tickets}
+                lat={data.lat}
+                lng={data.lng}
             />
         </div>
     )
@@ -25,6 +27,8 @@ const data = {
     label: "Barcelona",
     stadium: 'Camp Nou',
     tickets: availableTickets,
+    lat: 41.38092528437357,
+    lng: 2.1228155670258837,
 }
 
 export default Barcelona;

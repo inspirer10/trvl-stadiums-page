@@ -78,6 +78,8 @@ video {
 @media screen and (max-width: 560px) {
     video {
         display: none;
+        height: 1px;
+        width: 1px;
     }
     .hero-container {
         background: url('../images/Sky.jpg') center center/cover no-repeat;

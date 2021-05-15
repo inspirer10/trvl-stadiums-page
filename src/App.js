@@ -14,8 +14,13 @@ import Paris from './components/pages/Paris.js';
 import London from './components/pages/London.js';
 import Milan from './components/pages/Milan.js';
 import Monachium from './components/pages/Monachium.js';
-
 import './App.css';
+
+const ErrorPage = () =>  {
+    return(
+        <h1 className='errorPage'>This page does not exists</h1>
+    )
+}
 
 function App() {
     return (
@@ -34,6 +39,7 @@ function App() {
                     <Route path="/Milan" exact component={Milan} />
                     <Route path="/Monachium" exact component={Monachium} />
                     <Route path="/London" exact component={London} />
+                    <Route component={ErrorPage} />
                 </Switch>
             </Router>
         </React.StrictMode>
