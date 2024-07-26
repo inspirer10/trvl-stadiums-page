@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/trvl-stadiums-page/static/css/main.9f432d8e.chunk.css",
-    "main.js": "/trvl-stadiums-page/static/js/main.17f72f7f.chunk.js",
-    "main.js.map": "/trvl-stadiums-page/static/js/main.17f72f7f.chunk.js.map",
-    "runtime-main.js": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js",
-    "runtime-main.js.map": "/trvl-stadiums-page/static/js/runtime-main.c0b16823.js.map",
-    "static/js/2.49090b2c.chunk.js": "/trvl-stadiums-page/static/js/2.49090b2c.chunk.js",
-    "static/js/2.49090b2c.chunk.js.map": "/trvl-stadiums-page/static/js/2.49090b2c.chunk.js.map",
+    "main.css": "/trvl-stadiums-page/static/css/main.f1f71d17.chunk.css",
+    "main.js": "/trvl-stadiums-page/static/js/main.dfe47f31.chunk.js",
+    "main.js.map": "/trvl-stadiums-page/static/js/main.dfe47f31.chunk.js.map",
+    "runtime-main.js": "/trvl-stadiums-page/static/js/runtime-main.318fa5be.js",
+    "runtime-main.js.map": "/trvl-stadiums-page/static/js/runtime-main.318fa5be.js.map",
+    "static/js/2.3b026cff.chunk.js": "/trvl-stadiums-page/static/js/2.3b026cff.chunk.js",
+    "static/js/2.3b026cff.chunk.js.map": "/trvl-stadiums-page/static/js/2.3b026cff.chunk.js.map",
     "index.html": "/trvl-stadiums-page/index.html",
-    "static/css/main.9f432d8e.chunk.css.map": "/trvl-stadiums-page/static/css/main.9f432d8e.chunk.css.map",
-    "static/js/2.49090b2c.chunk.js.LICENSE.txt": "/trvl-stadiums-page/static/js/2.49090b2c.chunk.js.LICENSE.txt",
+    "static/css/main.f1f71d17.chunk.css.map": "/trvl-stadiums-page/static/css/main.f1f71d17.chunk.css.map",
+    "static/js/2.3b026cff.chunk.js.LICENSE.txt": "/trvl-stadiums-page/static/js/2.3b026cff.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/trvl-stadiums-page/static/media/Sky.913904a3.jpg",
     "static/media/App.css": "/trvl-stadiums-page/static/media/img14.446eccae.jpg",
-    "static/media/video.ab4d3f5e.mp4": "/trvl-stadiums-page/static/media/video.ab4d3f5e.mp4"
+    "static/media/video.81ead4d0.mp4": "/trvl-stadiums-page/static/media/video.81ead4d0.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0b16823.js",
-    "static/js/2.49090b2c.chunk.js",
-    "static/css/main.9f432d8e.chunk.css",
-    "static/js/main.17f72f7f.chunk.js"
+    "static/js/runtime-main.318fa5be.js",
+    "static/js/2.3b026cff.chunk.js",
+    "static/css/main.f1f71d17.chunk.css",
+    "static/js/main.dfe47f31.chunk.js"
   ]
 }
